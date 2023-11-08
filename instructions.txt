@@ -1,0 +1,8 @@
+1. Open Command Line
+2. Navigate to folder that contains the server
+3. Run "python server.py"
+4. Wait for server to say "waiting for client..."
+5. Open another command window and navigate to the same folder.
+6. Run "python client.py"
+7. The client should connect and you should be able to send messages.
+8. Type "exit" to close the server.
