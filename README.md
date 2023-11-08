@@ -1,9 +1,3 @@
-Project Web Server
-Due: 11:59 pm (EST), 05-04-2023
-Demo date: 05-04-2023
-Total 100 points, bonus 50 points
-No late submission accepted
-**If your codes cannot pass the compilation and successfully run, at least 50% points will be deducted.  
 In this project, you are required to develop a simple Web server in ANY programming language that is capable of processing only one request. 
 Functions:
 1.	Specifically, your Web server will (i) create a connection socket when contacted by a client (browser); (ii) receive the HTTP request from this connection; (iii) parse the request to determine the specific file being requested; (iv) get the requested file from the server’s file system; (v) create an HTTP response message consisting of the requested file preceded by header lines; and (vi) send the response over the TCP connection to the requesting browser. If a browser requests a file that is not present in your server, your server should return a “404 Not Found” error message.  (50 points)
